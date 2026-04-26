@@ -2,6 +2,7 @@ body {
     background: linear-gradient(45deg, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D);
     background-size: 400% 400%;
     animation: shimmer 2s ease infinite;
+    font-family: 'Papyrus', 'Courier New';
 }
 @keyframes shimmer {
     0% { background-position: 0% 50%; }
@@ -20,4 +21,34 @@ body {
     50% { transform: rotate(0deg); }
     75% { transform: rotate(3deg); }
     100% { transform: rotate(0deg); }
+}
+table {
+    background-color: #333;
+    color: white;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid #555;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #444;
+}
+
+footer {
+    background: linear-gradient(90deg,
+                rgba(255, 0, 0, 1) 0%,
+                rgba(255, 154, 0, 1) 10%,
+                rgba(208, 222, 33, 1) 20%,
+                rgba(79, 220, 74, 1) 30%,
+                rgba(63, 218, 216, 1) 40%,
+                rgba(47, 201, 226, 1) 50%,
+                rgba(28, 127, 238, 1) 60%,
+                rgba(95, 21, 242, 1) 70%,
+                rgba(186, 12, 248, 1) 80%,
+                rgba(251, 7, 217, 1) 90%,
+                rgba(255, 0, 0, 1) 100%);
+    padding: 30px;
 }
